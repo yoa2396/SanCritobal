@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Cristóbal</title>
+
+<meta charset="UTF-8">
+    <meta name="author" content="San Cristóbal">
+    <meta name="description" content="Pagina de San Cristóbal"
+    <meta name="keywords" content="San Cristóbal, Chayuco, Tobeños, Cristóbal"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="copyright" content="© 2025 Falco-Danna. Todos los derechos reservados"/>
+    <link rel="icon" href="Img/Logo.png">
+
+
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <header>
+        <h1>San Cristóbal </h1>
+        <h2>Clima</h2>
+   </header> 
+
+   <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Nomenclatura.html">Nomenclatura</a></li>
+      <li><a href="Autoridad Municipal.html">Autoridad Municipal</a></li>
+      <li><a href="Historia.html">Historia</a></li>
+      <li><a href="Infraestructura social.html">Infraestructura Social</a></li>
+      <li><a href="Vetimenta.html">Vestimenta</a></li>
+      <li><a href="Cultura y tradiciones.html">Cultura y Tradiciones</a></li>
+      <li><a href="Monumentos y lugares de interes.html">Monumentos y Lugares de Interés</a></li>
+      <li><a href="Flora.html">Flora</a></li>
+      <li><a href="Fauna.html">Fauna</a></li>
+      <li><a href="Clima.html">Clima</a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html">San Cristóbal</a></li>
+      <li class="hideOnMobile"><a href="index.html">Inicio</a></li>
+      <li class="hideOnMobile"><a href="Nomenclatura.html">Nomenclatura</a></li>
+      <li class="hideOnMobile"><a href="Autoridad Municipal.html">Autoridad Municipal</a></li>
+      <li class="hideOnMobile"><a href="Historia.html">Historia</a></li>
+      <li class="hideOnMobile"><a href="Infraestructura social.html">Infraestructura Social</a></li>
+      <li class="hideOnMobile"><a href="Vetimenta.html">Vestimenta</a></li>
+      <li class="hideOnMobile"><a href="Cultura y tradiciones.html">Cultura y Tradiciones</a></li>
+      <li class="hideOnMobile"><a href="Monumentos y lugares de interes.html">Monumentos y Lugares de Interés</a></li>
+      <li class="hideOnMobile"><a href="Flora.html">Flora</a></li>
+      <li class="hideOnMobile"><a href="Fauna.html">Fauna</a></li>
+      <li class="hideOnMobile"><a href="Clima.html">Clima</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+
+   <main>
+      
+    <div class="container">
+        
+        <div class="clima-section">
+            <h3>Características Climáticas</h3>
+            <p>San Cristóbal posee un clima moderadamente cálido debido a su altitud de 300 msnm. Las temperaturas oscilan normalmente entre 24°C y 25°C, aunque pueden descender hasta 22°C durante las noches más frías del invierno.</p>
+            
+            <div class="clima-highlights">
+                <div class="highlight-card">
+                    <h4>Temporada de Lluvias</h4>
+                    <p>De mayo a octubre, con precipitaciones intensas que alcanzan un promedio anual de 1,301.7 mm. Las tormentas suelen venir acompañadas de fuertes vientos, neblina densa y ocasional granizo.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h4>Temporada Seca</h4>
+                    <p>De noviembre a abril, con reducción significativa de lluvias, cielos despejados y temperaturas más frescas durante las madrugadas y primeras horas del día.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <h4>Neblina</h4>
+                    <p>Fenómeno frecuente debido a la altitud, que afecta la visibilidad y modera las temperaturas, especialmente en las primeras horas de la mañana.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+
+        <div class="clima-section">
+            <h3>Cambios Climáticos Recientes</h3>
+            <p>En las últimas décadas, San Cristóbal ha experimentado transformaciones notables en su clima, generando preocupación entre sus habitantes:</p>
+            
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h4>Aumento de Temperatura</h4>
+                    <p>Registro de temperaturas máximas hasta 35°C en verano, fenómeno inusual atribuido al cambio climático y deforestación en áreas cercanas.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <h4>Lluvias Intensas</h4>
+                    <p>Incremento en frecuencia e intensidad de precipitaciones, provocando inundaciones, deslaves y daños en infraestructura vial.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <h4>Patrones Irregulares</h4>
+                    <p>Alteración en los ciclos estacionales tradicionales, con lluvias fuera de temporada y períodos secos más prolongados.</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="clima-section">
+            <h3>Impactos en la Comunidad</h3>
+            
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <h4>Agricultura</h4>
+                    <p>Variaciones en la producción de cultivos como maíz, café y frijol debido a cambios en precipitaciones y temperaturas extremas, afectando ingresos de agricultores.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <h4>Infraestructura</h4>
+                    <p>Daños en caminos rurales por lluvias y deslaves, dificultando acceso a comunidades alejadas y transporte de bienes.</p>
+                </div>
+                
+                <div class="impact-card">
+                    <h4>Salud Pública</h4>
+                    <p>Aumento de enfermedades relacionadas con temperaturas extremas y proliferación de vectores en épocas de lluvias intensas.</p>
+                </div>
+            </div>
+        </div>
+        
+       
+        <div class="clima-section">
+            <h3>Adaptación y Medidas</h3>
+            <p>Para enfrentar estos desafíos climáticos, se recomienda:</p>
+            <ul>
+                <li>Implementación de sistemas de alerta temprana para fenómenos meteorológicos extremos</li>
+                <li>Mejoramiento y mantenimiento de la infraestructura vial</li>
+                <li>Promoción de prácticas agrícolas resilientes al clima</li>
+                <li>Programas de educación ambiental sobre cambio climático</li>
+                <li>Reforestación de áreas críticas para regular microclimas</li>
+            </ul>
+        </div>
+      </div>
+
+   </main>
+
+   <footer>
+    <div class="footer-content">
+            <div class="footer-column">
+                <h3>Sobre San Cristóbal</h3>
+                <p>Comunidad perteneciente al municipio de San Agustín Chayuco, en el distrito de Jamiltepec, Oaxaca. Rica en historia, tradiciones y biodiversidad.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+    © 2025 Falco-Danna. Todos los derechos reservados
+   </footer>
+</body>
+</html>

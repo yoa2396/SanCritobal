@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Cristóbal</title>
+
+<meta charset="UTF-8">
+    <meta name="author" content="San Cristóbal">
+    <meta name="description" content="Pagina de San Cristóbal"
+    <meta name="keywords" content="San Cristóbal, Chayuco, Tobeños, Cristóbal"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="copyright" conten="© 2025 Falco-Danna. Todos los derechos reservados"/>
+    <link rel="icon" href="Img\Logo.png">
+
+
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <header>
+        <h1>San Cristóbal Chayuco</h1>
+        <h2>Nuestra historia</h2>
+   </header> 
+
+<nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Nomenclatura.html">Nomenclatura</a></li>
+      <li><a href="Autoridad Municipal.html">Autoridad Municipal</a></li>
+      <li><a href="Historia.html">Historia</a></li>
+      <li><a href="Infraestructura social.html">Infraestructura Social</a></li>
+      <li><a href="Vetimenta.html">Vestimenta</a></li>
+      <li><a href="Cultura y tradiciones.html">Cultura y Tradiciones</a></li>
+      <li><a href="Monumentos y lugares de interes.html">Monumentos y Lugares de Interés</a></li>
+      <li><a href="Flora.html">Flora</a></li>
+      <li><a href="Fauna.html">Fauna</a></li>
+      <li><a href="Clima.html">Clima</a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html">San Cristóbal</a></li>
+      <li class="hideOnMobile"><a href="index.html">Inicio</a></li>
+      <li class="hideOnMobile"><a href="Nomenclatura.html">Nomenclatura</a></li>
+      <li class="hideOnMobile"><a href="Autoridad Municipal.html">Autoridad Municipal</a></li>
+      <li class="hideOnMobile"><a href="Historia.html">Historia</a></li>
+      <li class="hideOnMobile"><a href="Infraestructura social.html">Infraestructura Social</a></li>
+      <li class="hideOnMobile"><a href="Vetimenta.html">Vestimenta</a></li>
+      <li class="hideOnMobile"><a href="Cultura y tradiciones.html">Cultura y Tradiciones</a></li>
+      <li class="hideOnMobile"><a href="Monumentos y lugares de interes.html">Monumentos y Lugares de Interés</a></li>
+      <li class="hideOnMobile"><a href="Flora.html">Flora</a></li>
+      <li class="hideOnMobile"><a href="Fauna.html">Fauna</a></li>
+      <li class="hideOnMobile"><a href="Clima.html">Clima</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+
+   <main>
+        <section class="contenedor" id="historia">
+            
+            
+            <div class="linea-tiempo">
+                <div class="item-linea-tiempo izquierda">
+                    <div class="contenido-linea-tiempo">
+                        <h3>Orígenes Prehispánicos</h3>
+                        <p>San Cristóbal tiene sus raíces en tiempos prehispánicos, cuando grupos indígenas mixtecos habitaban la zona.</p>
+                    </div>
+                </div>
+                
+                <div class="item-linea-tiempo derecha">
+                    <div class="contenido-linea-tiempo">
+                        <h3>Época Colonial</h3>
+                        <p>Durante la colonia, el pueblo adquirió el nombre de San Cristóbal debido a la evangelización.</p>
+                    </div>
+                </div>
+                
+                <div class="item-linea-tiempo izquierda">
+                    <div class="contenido-linea-tiempo">
+                        <h3>Reubicación</h3>
+                        <p>Los primeros asentamientos estaban en "Venta Venta el Micho", pero debido a conflictos, los habitantes se trasladaron a su ubicación actual.</p>
+                    </div>
+                </div>
+                
+                <div class="item-linea-tiempo derecha">
+                    <div class="contenido-linea-tiempo">
+                        <h3>Desarrollo Educativo</h3>
+                        <p>En los años 60 solo había educación hasta 4° de primaria. Hoy cuenta con educación desde preescolar hasta nivel medio superior.</p>
+                    </div>
+                </div>
+                
+                <div class="item-linea-tiempo izquierda">
+                    <div class="contenido-linea-tiempo">
+                        <h3>Cambios Demográficos</h3>
+                        <p>La migración ha afectado la composición demográfica, reduciendo la población indígena y la población en general.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <footer>
+    <div class="footer-content">
+            <div class="footer-column">
+                <h3>Sobre San Cristóbal</h3>
+                <p>Comunidad perteneciente al municipio de San Agustín Chayuco, en el distrito de Jamiltepec, Oaxaca. Rica en historia, tradiciones y biodiversidad.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+    © 2025 Falco-Danna. Todos los derechos reservados
+   </footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Cristóbal</title>
+
+<meta charset="UTF-8">
+    <meta name="author" content="San Cristóbal">
+    <meta name="description" content="Pagina de San Cristóbal"
+    <meta name="keywords" content="San Cristóbal, Chayuco, Tobeños, Cristóbal"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="copyright" content="© 2025 Falco-Danna. Todos los derechos reservados"/>
+    <link rel="icon" href="Img/Logo.png">
+
+
+    <link rel="stylesheet" href="CSS/Estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <header>
+        <h1>San Cristóbal </h1>
+        <h2>Cultura y Tradiciones</h2>
+   </header> 
+
+   <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="Nomenclatura.html">Nomenclatura</a></li>
+      <li><a href="Autoridad Municipal.html">Autoridad Municipal</a></li>
+      <li><a href="Historia.html">Historia</a></li>
+      <li><a href="Infraestructura social.html">Infraestructura Social</a></li>
+      <li><a href="Vetimenta.html">Vestimenta</a></li>
+      <li><a href="Cultura y tradiciones.html">Cultura y Tradiciones</a></li>
+      <li><a href="Monumentos y lugares de interes.html">Monumentos y Lugares de Interés</a></li>
+      <li><a href="Flora.html">Flora</a></li>
+      <li><a href="Fauna.html">Fauna</a></li>
+      <li><a href="Clima.html">Clima</a></li>
+    </ul>
+    <ul>
+      <li><a href="index.html">San Cristóbal</a></li>
+      <li class="hideOnMobile"><a href="index.html">Inicio</a></li>
+      <li class="hideOnMobile"><a href="Nomenclatura.html">Nomenclatura</a></li>
+      <li class="hideOnMobile"><a href="Autoridad Municipal.html">Autoridad Municipal</a></li>
+      <li class="hideOnMobile"><a href="Historia.html">Historia</a></li>
+      <li class="hideOnMobile"><a href="Infraestructura social.html">Infraestructura Social</a></li>
+      <li class="hideOnMobile"><a href="Vetimenta.html">Vestimenta</a></li>
+      <li class="hideOnMobile"><a href="Cultura y tradiciones.html">Cultura y Tradiciones</a></li>
+      <li class="hideOnMobile"><a href="Monumentos y lugares de interes.html">Monumentos y Lugares de Interés</a></li>
+      <li class="hideOnMobile"><a href="Flora.html">Flora</a></li>
+      <li class="hideOnMobile"><a href="Fauna.html">Fauna</a></li>
+      <li class="hideOnMobile"><a href="Clima.html">Clima</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+
+   <main>
+      <section class="container" id="festividades">
+        <div class="seccion-destacada">
+            <div class="seccion-destacada-imagen">
+                <img src="Img/Tradiciones.png" alt="Festividades de San Cristóbal">
+            </div>
+            
+            <div class="seccion-destacada-contenido">
+                <h2 class="titulo-destacado">Calendario Festivo</h2>
+                <p class="subtitulo-destacado">Celebraciones que mantienen viva nuestra tradición</p>
+                
+                <div class="tarjeta-destacada">
+                    <p>Las festividades de San Cristóbal  son una muestra de nuestra fe, cultura y tradiciones ancestrales que se transmiten de generación en generación.</p>
+                </div>
+            </div>
+        </div>
+      </section>
+    
+      <div class="festividades-container">
+        <div class="festividad">
+          <div class="fecha">8 de enero</div>
+          <div class="detalle">
+            <h3>Levantamiento del Niño Dios</h3>
+            <p>Celebración religiosa que marca el final del ciclo navideño.</p>
+          </div>
+        </div>
+
+        <div class="festividad">
+          <div class="fecha">Semana Santa</div>
+          <div class="detalle">
+            <h3>Santo Enfierro</h3>
+            <p>Procesiones y representaciones de la Pasión de Cristo.</p>
+          </div>
+        </div>
+
+        <div class="festividad">
+          <div class="fecha">24 de julio</div>
+          <div class="detalle">
+            <h3>San Cristóbal</h3>
+            <p>Fiesta patronal en honor al santo protector de la comunidad.</p>
+          </div>
+        </div>
+
+        <div class="festividad">
+          <div class="fecha">8 de octubre</div>
+          <div class="detalle">
+            <h3>Virgen del Rosario</h3>
+            <p>Celebración mariana con misas y procesiones.</p>
+          </div>
+        </div>
+
+        <div class="festividad">
+          <div class="fecha">25 de abril</div>
+          <div class="detalle">
+            <h3>Feria Anual de San Marcos</h3>
+            <p>Evento comunitario con juegos, comida y música tradicional.</p>
+          </div>
+        </div>
+
+        <div class="festividad">
+          <div class="fecha">8 de diciembre</div>
+          <div class="detalle">
+            <h3>Virgen de Juquila</h3>
+            <p>Homenaje a la venerada imagen mariana.</p>
+          </div>
+        </div>
+
+        <div class="festividad">
+          <div class="fecha">Día de la samaritana</div>
+          <div class="detalle">
+            <h3>Día de la samaritana</h3>
+            <p>Celebración tradicional con reparto de bebidas típicas.</p>
+          </div>
+        </div>
+      </div>
+
+      <section class="importancia">
+        <h2>Importancia Cultural</h2>
+        <p>Estas festividades representan:</p>
+        
+        <div class="importancia-grid">
+          <div class="importancia-item">
+            <i class="fas fa-church"></i>
+            <h3>Fe</h3>
+            <p>Manifestaciones de la religiosidad popular</p>
+          </div>
+          
+          <div class="importancia-item">
+            <i class="fas fa-users"></i>
+            <h3>Unión</h3>
+            <p>Oportunidad para fortalecer la cohesión comunitaria</p>
+          </div>
+          
+          <div class="importancia-item">
+            <i class="fas fa-history"></i>
+            <h3>Tradición</h3>
+            <p>Preservación de costumbres ancestrales</p>
+          </div>
+        </div>
+      </section>
+
+   </main>
+
+   <footer>
+    <div class="footer-content">
+            <div class="footer-column">
+                <h3>Sobre San Cristóbal</h3>
+                <p>Comunidad perteneciente al municipio de San Agustín Chayuco, en el distrito de Jamiltepec, Oaxaca. Rica en historia, tradiciones y biodiversidad.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+    © 2025 Falco-Danna. Todos los derechos reservados
+   </footer>
+</body>
+</html>
